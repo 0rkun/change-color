@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+#btn{
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 45px;
+    font-size: 2em;
+    outline: none;
+}
+#btn:hover{
+    cursor: pointer;
+}
